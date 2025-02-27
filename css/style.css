@@ -1,0 +1,350 @@
+html {
+    background-color:rgb(255, 255, 255) ;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header {
+    
+    background-color: #0057B8;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content:center ;
+    flex-wrap: wrap;
+    padding: 5px ;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+#logo{
+    max-width: 15%;
+}
+
+nav {
+    width: 100%;
+    text-align: center ; 
+    background-color: #0057B8;
+
+    
+    }
+
+header ul li { 
+    display: inline;
+    color: antiquewhite;
+ margin: 10px ;
+  text-decoration: none
+    }
+
+    nav li:hover {
+        background-color: #faebd7;
+        color: #0057B8;
+         padding: 20px;
+         border-radius: 5px;
+      }
+
+#introduction {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    flex-wrap:wrap;
+    overflow: hidden;
+height: 300px;
+padding-bottom: 280px;
+margin-bottom: 15px;
+background-image: url("https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWxpbWxxeGhlZW02dGY4NXhobmVpMnJqNTNpZTYwcTkwamt2MnUybSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Y2XUgTRHYg9pQ04I7r/giphy.gif") ;
+background-color: #faebd7;
+background-repeat: no-repeat;
+background-size: cover;
+border-radius:5px
+}
+
+.position {
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: 300px;
+    margin-right: 800px;
+    padding: 5px;
+    background-color: antiquewhite;opacity: 0.8;
+}
+
+#title {
+color:blue ;
+}
+
+
+#services {
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#services h4 {
+    margin-left: 15px;
+    margin-right: 2px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.card-services{
+    background-color:#0057B8;
+    color: #FFFFFF;
+    width: 280px ;
+    height: 520px;
+    margin: 8px;
+    border-radius: 10px;
+}
+
+.card-services:hover{
+    background-color: antiquewhite ;
+    color:#0057B8;
+    cursor:pointer;
+    transform: scale(1.08);
+    transition: all 10ms ease-in-out;
+}
+  
+.services-image{
+background-color: rgb(189, 189, 189);
+height: 150px;
+margin-bottom: 15px;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px
+}
+
+
+.service1{
+    background-image: url("https://tc.canada.ca/sites/default/files/2021-06/Container%20trucks.png");
+    background-size: cover;
+}
+
+
+.service2{
+    background-image: url("https://cdn.prod.website-files.com/6193d546dfb64eec20323f4a/6723a4012c176d72c44a13b7_Entreposage%20VS%20Stockage-2.png");
+    background-size: cover;
+}
+
+.service3{
+    background-image: url("https://images.unsplash.com/photo-1521790945508-bf2a36314e85?q=80&w=1934&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+}
+
+.service4{
+    background-image: url("https://mabeauce.com/wp-content/uploads/2021/07/douanes-678x381.jpg");
+    background-size: cover;
+}
+
+.service5{
+    background-image: url("https://www.raja.fr/blog/wp-content/uploads/2022/05/nouvelle-technologie-logistique.jpg");
+    background-size: cover;
+}
+#services p {
+    padding: 10px;
+    text-align: justify;
+}
+#services .boutton-services {
+background-color: rgb(253, 253, 253);
+color: black;
+padding:  15px 20px;
+display: block;
+text-align: center;
+margin: 15px 50px;
+border-radius: 10px;
+}
+
+#services .boutton-services:hover {
+    background-color: #0057B8;
+    color: antiquewhite;
+    padding:  15px 20px;
+    display: block;
+    text-align: center;
+    margin: 15px 50px;
+
+}
+
+
+ .slider-img {
+    display: block;
+    width: 100%;
+    height: 450px;
+  }
+  
+  #slider {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+   #slider  article {
+    display: flex;
+    width: 200%;
+    animation: bannermove 20s linear infinite;
+  }
+  
+  
+  .images-container {
+    
+    width: 100%;
+  }
+  
+  #slider ul {
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+  }
+  
+  #slider li {
+    width: 100%;
+    background: blue;
+  }
+  
+  
+  @keyframes bannermove {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+
+#suivi{
+    display: flex;
+   background-image: url("https://cdn.pixabay.com/photo/2015/10/15/21/37/texture-990104_1280.jpg");
+    background-size: cover;
+    justify-items:flex-start;
+    align-content: first baseline;
+    padding: 15px;
+    color: antiquewhite;
+    border-radius: 10px ;
+}
+#suivi Input[type="text"] {
+    margin-left: 10px;
+    align-self:flex-end;
+    
+}
+#devis{
+    background-color: #0057B8;
+    margin: 5px;
+    padding: 15px;
+    color: antiquewhite;
+    border-radius: 10px ;
+}
+
+
+
+.form-btn-container{
+    display: flex;
+    justify-content: center;
+}
+
+.form-btn { 
+
+    padding: 15px;
+    border-radius: 10px;
+    border: hidden;
+    background-color: antiquewhite;
+    color: #0057B8;
+    font-size: larger;
+    margin-bottom: 12px;
+}
+
+.form-btn:hover { 
+
+    padding: 15px;
+    border-radius: 10px;
+    border: outset;
+    background-color: #0057B8;
+    color: antiquewhite;
+    font-size: larger;
+    margin-bottom: 12px;
+}
+
+#formulaire{
+    display: flex;
+    justify-content: center;
+    background-image: url("https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWZveGFqZ3BoaDQ5cWptdG01NjZiMjc1aGZtNDU5OWQyNTByaGxvbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3oriO3gs07ZfRPFaKI/giphy.gif");
+    background-size: contain;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.form-container{
+    background-color: #0057B8;
+    margin: 15px 20px;
+    padding: 100px;
+    width: 700px ;
+    border-radius: 5px;
+}
+.form-container header{
+    padding: 2px;
+    text-align: center;
+    margin-bottom: 55px;
+    font-weight: bold;
+    font-size: 50px;
+    color: white;
+}
+.form-container form {
+    display: flex;
+    flex-direction: column;
+
+}
+.input-container{
+    display: flex;
+    flex-flow: column;
+    margin: 10px;
+    
+}
+.form-container label{
+    color: aliceblue;
+    font-size: large;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.form-container select{
+    background-color: antiquewhite;
+    border: hidden;
+    border-radius: 12px;
+    padding: 5px;
+}
+
+Input[type="text"] {
+    background-color: antiquewhite;
+    border: hidden;
+    border-radius: 12px;
+    padding: 5px;
+}
+Input[type="number"] {
+    background-color: antiquewhite;
+    border: hidden;
+    border-radius: 12px;
+    padding: 5px;
+}
+Input[type="email"] {
+    background-color: antiquewhite;
+    border: hidden;
+    border-radius: 12px;
+    padding: 5px;
+}
+
+#message-box Input[type="text"] {
+padding: 35px;
+}
+
+#submit{
+    width: 100px;
+    align-self: center;
+    background-color: antiquewhite;
+    border: hidden;
+    border-radius: 10px;
+}
+footer{
+    width: 100%;
+    
+    text-align: center ; 
+    background-color: #0057B8;
+    margin-top: 15px ;
+    padding: 1px;
+}
+#footer-2{
+        color: #FFFFFF;
+        
+    }
+
+
