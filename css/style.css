@@ -1,5 +1,5 @@
 html {
-    background-color:rgb(255, 255, 255) ;
+    background-color:#0056b800 ;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 header {
@@ -15,15 +15,13 @@ header {
     border-radius: 5px;
 }
 #logo{
-    max-width: 15%;
+    max-width: 25%;
 }
 
 nav {
     width: 100%;
     text-align: center ; 
     background-color: #0057B8;
-
-    
     }
 
 header ul li { 
@@ -40,21 +38,21 @@ header ul li {
          border-radius: 5px;
       }
 
-#introduction {
-    display: flex;
-    justify-content: center;
-    padding: 5px;
-    flex-wrap:wrap;
-    overflow: hidden;
-height: 300px;
-padding-bottom: 280px;
-margin-bottom: 15px;
-background-image: url("https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWxpbWxxeGhlZW02dGY4NXhobmVpMnJqNTNpZTYwcTkwamt2MnUybSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Y2XUgTRHYg9pQ04I7r/giphy.gif") ;
-background-color: #faebd7;
-background-repeat: no-repeat;
-background-size: cover;
-border-radius:5px
-}
+      #introduction {
+        display: flex;
+        justify-content: center;
+        padding: 5px;
+        flex-wrap:wrap;
+        overflow: hidden;
+    height: 300px;
+    padding-bottom: 280px;
+    margin-bottom: 15px;
+    background-image: url("https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWxpbWxxeGhlZW02dGY4NXhobmVpMnJqNTNpZTYwcTkwamt2MnUybSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Y2XUgTRHYg9pQ04I7r/giphy.gif") ;
+    background-color: #faebd7;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius:5px
+    }
 
 .position {
     text-align: center;
@@ -63,13 +61,12 @@ border-radius:5px
     margin-top: 300px;
     margin-right: 800px;
     padding: 5px;
-    background-color: antiquewhite;opacity: 0.8;
+    background-color: rgb(255, 255, 255);opacity: 0.8;
 }
 
 #title {
 color:blue ;
 }
-
 
 #services {
     display:flex;
@@ -157,11 +154,51 @@ border-radius: 10px;
 
 }
 
+#choix {
+    display:flex;
+    padding-top: 10px;
+    padding-bottom: 30px ;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+#choix h2 {
+margin: 10px ;
+}
+
+.collapsible {
+    background-color: #0057B8;
+    color: antiquewhite;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  .active, .collapsible:hover {
+    background-color: #074285;
+    color: rgb(244, 207, 158);
+  }
+  
+  .content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.8s ease-out;
+    text-align: left;
+    background-color: #faebd7;
+    width: 100%;
+    color: #0057B8;
+  }
 
  .slider-img {
     display: block;
     width: 100%;
-    height: 450px;
+    height: 250px;
   }
   
   #slider {
@@ -203,6 +240,91 @@ border-radius: 10px;
     }
   }
 
+#témoignages {
+    background-color:;
+    padding: 10px;
+}
+#témoignages h2{
+    text-align: center;
+}
+  
+  
+  .testimonial-container {
+    background-image: url("https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExOWN1ejVwZG0ydmdhY3FtYmZqd2lmcmUwYW9idjBva2tydGNrY3J3NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/mGj6Sv3eqkz4DrpcE6/giphy.gif");
+    background-repeat: no-repeat;
+background-size: cover;
+    border-radius: 15px;
+    color: #fff;
+    margin: 20px auto;
+    max-width: 768px;
+    padding: 50px 80px;
+    position: relative;
+  }
+  
+ 
+  
+  
+  .testimonial {
+    line-height: 28px;
+    font-size: larger;
+    text-align: justify;
+  }
+  
+  .user {
+    align-items: center;
+    margin: ;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .user .user-image {
+    border-radius: 50%;
+    height: 75px;
+    object-fit: cover;
+    width: 75px;
+  }
+  
+  .user .user-details {
+    margin-left: 10px;
+
+    padding: 5px;
+    border-radius: 15px;
+  }
+  
+  .user .username {
+    margin: 0;
+  }
+  
+  .user .role {
+    font-weight: normal;
+    margin: 10px 0;
+  }
+  
+  .progress-bar {
+    animation: grow 10s linear infinite;
+    background-color: antiquewhite;
+    height: 4px;
+    transform-origin: left;
+    width: 100%;
+  }
+  
+  @keyframes grow {
+    0% {
+      transform: scaleX(0);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .testimonial-container {
+      padding: 20px 30px;
+    }
+  
+    .fa-quote {
+      display: none;
+    }
+  }
+  
+
 #suivi{
     display: flex;
    background-image: url("https://cdn.pixabay.com/photo/2015/10/15/21/37/texture-990104_1280.jpg");
@@ -227,14 +349,12 @@ border-radius: 10px;
 }
 
 
-
 .form-btn-container{
     display: flex;
     justify-content: center;
 }
 
 .form-btn { 
-
     padding: 15px;
     border-radius: 10px;
     border: hidden;
@@ -336,15 +456,11 @@ padding: 35px;
 }
 footer{
     width: 100%;
-    
+    color: #FFFFFF;
     text-align: center ; 
     background-color: #0057B8;
     margin-top: 15px ;
     padding: 1px;
+    border-radius: ;
 }
-#footer-2{
-        color: #FFFFFF;
-        
-    }
-
 
